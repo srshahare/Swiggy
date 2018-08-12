@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "419635919797",
+    "firebase_url": "https://swiggy-a6067.firebaseio.com",
+    "project_id": "swiggy-a6067",
+    "storage_bucket": "swiggy-a6067.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:419635919797:android:d521b92f8e6030d6",
+        "android_client_info": {
+          "package_name": "com.example.shashank.swiggy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "419635919797-fprtmfq7e5fe00voj9v4ika10n46f6cr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.shashank.swiggy",
+            "certificate_hash": "827f65b4c5af6a61a627de114f3228c7824887c7"
+          }
+        },
+        {
+          "client_id": "419635919797-3a6co3k7toi3cfdqmbqelg0e82b76vg8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8enJTd5O_6AtdCxjAq6Dn8y6aNrCOUaY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "419635919797-3a6co3k7toi3cfdqmbqelg0e82b76vg8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

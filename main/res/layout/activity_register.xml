@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity"
+    android:background="@drawable/backg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="565dp"
+        android:layout_marginBottom="60dp"
+        android:orientation="vertical"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp"
+        android:paddingTop="56dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <ImageView
+            android:id="@+id/sign_up_image"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="24dp"
+            android:contentDescription="logo_image"
+            android:src="@drawable/logo" />
+
+        <!--  Name Label -->
+
+        <!-- Email Label -->
+        <EditText
+            android:id="@+id/input_name"
+            style="@style/Base.Theme.AppCompat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="User Name..."
+            android:inputType="textMultiLine"
+            android:textColor="@android:color/background_light" />
+
+        <!-- Password Label -->
+        <EditText
+            android:id="@+id/input_email"
+            style="@style/Base.Theme.AppCompat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:hint="Email..."
+            android:inputType="textMultiLine|textEmailAddress"
+            android:textColor="@android:color/background_light" />
+
+        <!-- Signup Button -->
+        <EditText
+            android:id="@+id/input_password"
+            style="@style/Base.Theme.AppCompat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:hint="Password..."
+            android:inputType="textMultiLine|textPassword"
+            android:textColor="@android:color/background_light" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_signup"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/side_nav_bar"
+            android:padding="12dp"
+            android:text="create account"
+            android:textColor="@android:color/background_light"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/link_login"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:gravity="center"
+            android:text="already a member? Login"
+            android:textColor="@android:color/background_light"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
